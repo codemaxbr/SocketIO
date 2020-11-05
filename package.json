@@ -1,0 +1,25 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "Projeto de Integração Real-time com Socket.IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemaxbr/SocketIO.git"
+  },
+  "author": "Lucas Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codemaxbr/SocketIO/issues"
+  },
+  "homepage": "https://github.com/codemaxbr/SocketIO#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ioredis": "^4.19.2",
+    "redis": "^3.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
