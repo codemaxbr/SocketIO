@@ -1,0 +1,13 @@
+version: '2'
+services:
+  api:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    container_name: socketio
+    network_mode: bridge
+    ports:
+      - 8890:3000
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules

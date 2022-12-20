@@ -1,25 +1,23 @@
 {
   "name": "socketio",
   "version": "1.0.0",
-  "description": "Projeto de Integração Real-time com Socket.IO",
+  "description": "Microserviço de Integração Real-time com Socket.IO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codemaxbr/SocketIO.git"
-  },
-  "author": "Lucas Maia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/codemaxbr/SocketIO/issues"
-  },
-  "homepage": "https://github.com/codemaxbr/SocketIO#readme",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "ioredis": "^4.19.2",
-    "redis": "^3.0.2",
-    "socket.io": "^2.3.0"
+    "@socket.io/redis-adapter": "^7.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "ioredis": "^5.0.6",
+    "nodemon": "^2.0.16",
+    "redis": "^4.1.0",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "socket.io-emitter": "^3.2.0",
+    "socket.io-redis": "^6.1.1"
   }
 }
